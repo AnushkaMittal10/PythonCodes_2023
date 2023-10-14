@@ -1,0 +1,5 @@
+enter_list = input("Enter your list as (1,2,x...):").split(",")
+map_int = map(int, enter_list)
+print("You entered:", enter_list)
+avg = sum(map_int)/len(enter_list)
+print("Average of the list:", avg)
